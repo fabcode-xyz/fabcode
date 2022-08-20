@@ -1,0 +1,15 @@
+name: Crate Publish Dry-run
+on: [ push ]
+jobs:
+  Publish-Crate-Dry-run:
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v2
+    - uses: actions-rs/toolchain@v1
+      with:
+        toolchain: stable
+        override: true
+    - uses: katyo/publish-crates@v1
+      with:
+        args: --no-verify
+        dry-run: true
