@@ -1,5 +1,8 @@
 name: Crate Publish Dry-run
-on: [ push ]
+on:
+  push:
+    branches-ignore:
+      - master
 jobs:
   Publish-Crate-Dry-run:
     runs-on: ubuntu-latest
