@@ -1,8 +1,6 @@
 name: Crate Publish Dry-run
 on:
   push:
-    branches-ignore:
-      - master
     branches:
       - staging
 jobs:
