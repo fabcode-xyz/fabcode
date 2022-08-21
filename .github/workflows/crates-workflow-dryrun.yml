@@ -1,4 +1,4 @@
-name: Crate Publish Dry-run
+name: Crate Dryrun
 on:
   push:
     branches:
