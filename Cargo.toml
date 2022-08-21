@@ -1,11 +1,13 @@
 [package]
 name = "fabcode"
-version = "0.1.0"
+version = "0.2.0"
 edition = "2021"
 authors = [ "Satyender Yadav" ]
 license = "MIT"
 license-file = "MIT.txt"
 description = "FabCode sets out to build GUI based workflow engine that will help speed up development."
+homepage = "https://fabcode.xyz"
+repository = "https://github.com/fabcode-xyz/fabcode"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
