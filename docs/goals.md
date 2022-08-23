@@ -13,6 +13,7 @@
    * Conditionals
    * Recursion / Function Calls
      - Prefer bounded recursion over this, but to be provided for easy of use.
+   * Create Type System & Type Checker
    * Basic Boundedness Checks
    * Models to connect to Data Sinks & Taps
      - Can be extended to carry permission info to trace permission info like in taintdroid
@@ -36,3 +37,10 @@
 9. Allow tagging logic chunks as idempotent and build fault tolerance on idempotent components automatically through replayability.
 10. Allow Node Live previews in the future.
 
+# Future Libraries to provide
+
+1. Files / IO libraries
+2. Connectors to services like S3
+3. Image Processing Libraries
+4. AI / ML Libraries
+5. Allow Schema update Nodes for plugged external language snippets.
