@@ -8,6 +8,7 @@
    * Function Creation
    * Reusable Snippets, like Macros
    * Classes
+   * Support Schemaless data too
    * Pure / Stateless Functions
    * Stateful Functions
    * Conditionals
@@ -24,6 +25,8 @@
    * Build Cost functions to predict resource usage and as well for potential billing
    * Allow conversion of fabcode to EVM / other blockchain bytecodes if all used components are compatible.
    * Think of future possibility of writing a verified compiler of the same.
+   * Support Dependency Injection & Other patterns from Gang of Four
+   * Logging as a special kind of Sink
 2. Provide way to test logic.
 3. Allow Flag Based nodes, like Some node executed only if DEBUG flag on.
 4. Allow breakpoints and debugging of logic / traceability.
