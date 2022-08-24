@@ -23,7 +23,7 @@
    * Allow accessor control (like public and private, but need to redefine from cloud native perspective)
    * Allow Adapters to connect to language specific code snippets. Think of how NodeJS / Java use Native C code.
    * Build Cost functions to predict resource usage and as well for potential billing
-   * Allow conversion of fabcode to EVM / other blockchain bytecodes if all used components are compatible.
+   * Allow conversion of FabCode to EVM / other blockchain bytecodes if all used components are compatible.
    * Think of future possibility of writing a verified compiler of the same.
    * Support Dependency Injection & Other patterns from Gang of Four
    * Logging as a special kind of Sink
