@@ -39,6 +39,8 @@
    * Easy to build using notion of request id & parent request id.
 9. Allow tagging logic chunks as idempotent and build fault tolerance on idempotent components automatically through replayability.
 10. Allow Node Live previews in the future.
+11. Think on how conflict resolution & Collaboration will work on Flow Based System.
+   * Think Common Graph Nodes.
 
 # Future Libraries to provide
 
